@@ -4,12 +4,43 @@ body {
   background-color: #ffffff;
 }
 
-ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
 }
 
 a {
   text-decoration: none;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header .logo {
@@ -20,6 +51,22 @@ a {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+
+.list-header {
+  display: flex;
+  gap: 40px;
+}
+
+.item-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header .logo-accent {
@@ -32,6 +79,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-header:hover,
@@ -41,6 +90,16 @@ a {
 
 .contact {
   font-style: normal;
+}
+
+.list-contact {
+  display: flex;
+  gap: 40px;
+}
+
+.item-contact {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contact-link {
@@ -54,6 +113,11 @@ a {
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-main {
